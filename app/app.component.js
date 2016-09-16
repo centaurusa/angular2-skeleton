@@ -15,7 +15,8 @@ var AppComponent = (function () {
     AppComponent = __decorate([
         core_1.Component({
             selector: 'my-app',
-            template: '<h1>My First Angular 2 App</h1>'
+            template: "\n    <div class=\"main\">\n        <div class=\"row clearfix\" id=\"uiselect1\">\n        <!--// UI SELECT FIRST INSTANCE START //-->\n            <nav-btn></nav-btn>\n         <div class=\"col col1\">\n         </div>\n        <!--// UI SELECT FIRST INSTANCE END //-->\n\n        <!--// UI SELECT SECOND INSTANCE START //-->\n         <div class=\"col col2\">\n\n         </div>\n         <!--// UI SELECT SECOND INSTANCE END //-->\n        </div>\n    </div>\n    ",
+            styleUrls: ['app/css/app.component.css']
         }), 
         __metadata('design:paramtypes', [])
     ], AppComponent);
